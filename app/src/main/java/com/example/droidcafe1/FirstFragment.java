@@ -33,10 +33,12 @@ public class FirstFragment extends Fragment {
         });
 
     }
+
     public void displayToast(String message) {
         Toast.makeText(getActivity().getApplicationContext(), message,
                 Toast.LENGTH_SHORT).show();
     }
+
     /**
      * Shows a message that the donut image was clicked.
      */
@@ -57,4 +59,5 @@ public class FirstFragment extends Fragment {
     public void showFroyoOrder(View view) {
         displayToast(getString(R.string.froyo_order_message));
 
+    }
 }
